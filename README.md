@@ -16,27 +16,25 @@ https://en.wikipedia.org/wiki/Vowel_diagram
 
 ![Image1](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video1_men.png)
 ![Image2](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video2_women.png)
-![Image3]![Image3](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video3_men.png)
+![Image3](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video3_men.png)
 
+![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-back.png)
 
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-back.png)
 
+![vowel chart](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/512px-California_English_vowel_chart.png)
 
-![vowel tongue]![Image3](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-back.png)
-Source: [Wikipedia](Wikipedia https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-back.png)
-
-![Image description](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/California_English_vowel_chart.png)
 Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:California_English_vowel_chart.png)
-
 
 
 ## Install the required libraries
 
 ```bash
 pip install -r requirements.txt
+```
 
-
-## To run the script, execute the following command:
-
+## To run the script, execute the following command
 
 ```bash
 python main.py
+```
