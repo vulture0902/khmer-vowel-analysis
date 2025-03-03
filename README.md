@@ -22,9 +22,18 @@ https://en.wikipedia.org/wiki/Vowel_diagram
 
 Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-back.png)
 
-![vowel chart](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/512px-California_English_vowel_chart.png)
+![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-front.svg.png)
 
-Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:California_English_vowel_chart.png)
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-front.svg.png)
+
+![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position.png)
+
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position.png)
+
+
+![vowel chart](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/997px-IPA_vowel_chart.svg.png)
+
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:997px-IPA_vowel_chart.svg.png)
 
 
 ## Install the required libraries
