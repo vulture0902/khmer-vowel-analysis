@@ -1,34 +1,35 @@
 # khmer-vowel-analysis
 
-音声学では、A vowel diagram や vowel chartと呼ばれる母音を配置したものがある。英語のIPA記号を配置した図は以下のように描かれる。
+នៅក្នុងសូរសព្ទមានដ្យាក្រាមមួយហៅថា vowel diagram ឬ vowel chart ។ ដ្យាក្រាម IPA(International Phonetic Alphabet) ភាសាអង់គ្លេសត្រូវបានរៀបចំត្រូវបានបង្ហាញខាងក្រោម ។ អ័ក្ស​បញ្ឈរ​ត្រូវ​បាន​គ្រោង​ជា F1 និង​អ័ក្ស​ផ្ដេក​ដូច​ជា F2 ។ នេះត្រូវគ្នាទៅនឹងការបើកមាត់ និងទីតាំងនៃអណ្តាត។
 
-https://en.wikipedia.org/wiki/Vowel_diagram
+ឧទាហរណ៍
+u=>o=>ɔ=>ɑ
 
-母音は、発生する時に舌の位置と開き方が変化する。
+![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-back.png)
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-back.png)
 
-ɑ=>ɔ=>o=>u
+![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-front.svg.png)
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-front.svg.png)
 
-と図の関係は以下のようになる。この時、F1とF2が変化する。
+នៅពេលដែលតម្លៃ F1 កើនឡើង ការបើកមាត់កាន់តែធំ ។ F2 តំណាងឱ្យទីតាំងអណ្តាត។តាមពិតតម្លៃគឺខុសគ្នាសម្រាប់បុរសនិងស្ត្រីហើយប្រែប្រួលពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់។ ទោះយ៉ាងណាក៏ដោយ តម្លៃនេះអាចមានប្រយោជន៍នៅពេលសិក្សាភាសាបរទេស។
 
+![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position.png)
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position.png)
 
-カンボジア語のអអ៊も
+ខ្ញុំ​បាន​សរសេរ​កូដ​មួយ​ចំនួន​ដើម្បី​ផ្គូផ្គង​ពាក្យ​ខ្មែរ អ៊ា ទៅជា​ដ្យាក្រាម។ Sound File ​សម្រាប់អអ៊ បាន​បង្កើត​ឡើង​ពី YouTube ។
 
+video 1
+https://www.youtube.com/watch?v=mBZpNL1HSOg
+
+video 2
+https://www.youtube.com/watch?v=CFUNyVSjWWQ
+
+video 3
+https://www.youtube.com/watch?v=NkLKdlRqVzE
 
 ![Image1](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video1_men.png)
 ![Image2](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video2_women.png)
 ![Image3](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video3_men.png)
-
-![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-back.png)
-
-Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-back.png)
-
-![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-front.svg.png)
-
-Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-front.svg.png)
-
-![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position.png)
-
-Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position.png)
 
 
 ![vowel chart](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/997px-IPA_vowel_chart.svg.png)
