@@ -8,10 +8,10 @@ u=>o=>ɔ=>ɑ
 ![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-back.png)
 Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-back.png)
 
+នៅពេលដែលតម្លៃ F1 កើនឡើង ការបើកមាត់កាន់តែធំ ។ F2 តំណាងឱ្យទីតាំងអណ្តាត។តាមពិតតម្លៃគឺខុសគ្នាសម្រាប់បុរសនិងស្ត្រីហើយប្រែប្រួលពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់។ ទោះយ៉ាងណាក៏ដោយ តម្លៃនេះអាចមានប្រយោជន៍នៅពេលសិក្សាភាសាបរទេស។
+
 ![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position-front.svg.png)
 Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position-front.svg.png)
-
-នៅពេលដែលតម្លៃ F1 កើនឡើង ការបើកមាត់កាន់តែធំ ។ F2 តំណាងឱ្យទីតាំងអណ្តាត។តាមពិតតម្លៃគឺខុសគ្នាសម្រាប់បុរសនិងស្ត្រីហើយប្រែប្រួលពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់។ ទោះយ៉ាងណាក៏ដោយ តម្លៃនេះអាចមានប្រយោជន៍នៅពេលសិក្សាភាសាបរទេស។
 
 ![vowel tongue](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/Cardinal_vowel_tongue_position.png)
 Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongue_position.png)
