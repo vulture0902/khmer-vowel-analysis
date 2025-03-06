@@ -18,13 +18,25 @@ Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Cardinal_vowel_tongu
 
 ខ្ញុំ​បាន​សរសេរ​កូដ​មួយ​ចំនួន​ដើម្បី​ផ្គូផ្គង​ពាក្យ​ខ្មែរ អ៊ា ទៅជា​ដ្យាក្រាម។ Sound File ​សម្រាប់អអ៊ បាន​បង្កើត​ឡើង​ពី YouTube ។
 
-video 1
+**video 1**
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mBZpNL1HSOg
+" target="_blank"><img src="http://img.youtube.com/vi/mBZpNL1HSOg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 https://www.youtube.com/watch?v=mBZpNL1HSOg
 
-video 2
+**video 2**
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CFUNyVSjWWQ
+" target="_blank"><img src="http://img.youtube.com/vi/CFUNyVSjWWQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 https://www.youtube.com/watch?v=CFUNyVSjWWQ
 
-video 3
+**video 3**
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=NkLKdlRqVzE
+" target="_blank"><img src="http://img.youtube.com/vi/NkLKdlRqVzE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 https://www.youtube.com/watch?v=NkLKdlRqVzE
 
 ![Image1](https://github.com/vulture0902/khmer-vowel-analysis/blob/main/fig/video1_men.png)
