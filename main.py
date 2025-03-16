@@ -13,6 +13,29 @@ font_manager.fontManager.addfont(os.path.join(os.getcwd(), "KhmerOSsys.ttf"))
 
 def main():
 
+    vowels = {
+        'i': (250, 2350, 'white'),
+        'ɪ': (350, 2050, 'white'),
+        'e': (450, 1950, 'white'),
+        'ɛ': (550, 1750, 'white'),
+        'æ': (650, 1550, 'white'),
+        'ɑ': (750, 1150, 'white'),
+        'ɔ': (550, 950,  'white'),
+        'o': (450, 850,  'white'),
+        'ʊ': (350, 1050, 'white'),
+        'u': (250, 950,  'white'),
+        'ʌ': (650, 1350, 'white'),
+        'ɒ': (750, 850,  'white'),
+    }
+
+    vowels_jp = {
+        'A(j)': (700, 1400, 'yellow'),
+        'I(j)': (250, 2200, 'yellow'),
+        'U(j)': (300, 1100, 'yellow'),
+        'E(j)': (500, 1900, 'yellow'),
+        'O(j)': (400, 800,  'yellow'),
+    }
+
     # https://www.youtube.com/watch?v=mBZpNL1HSOg
     mp3_file1_type1_o1 = f"{os.getcwd()}/sound_from_youtube/men_video1_time_st0006_type1_o1.wav"
     mp3_file1_type1_o2 = f"{os.getcwd()}/sound_from_youtube/men_video1_time_st0006_type1_o2.wav"
@@ -34,7 +57,7 @@ def main():
     mp3_file3_type2_o2 = f"{os.getcwd()}/sound_from_youtube/men_video3_time_st0029_type2_o2.wav"
 
     # men video1 
-    plot_init()
+    plot_init(vowels)
     plot_formants(plt, mp3_file1_type1_o1, 'blue', '^', "អ")
     plot_formants(plt, mp3_file1_type2_o1, 'blue', '^', "អ")
     plot_formants(plt, mp3_file1_type3_o1, 'blue', '^', "អ")
@@ -45,7 +68,7 @@ def main():
     plt.clf()
 
     # women video2 
-    plot_init()
+    plot_init(vowels)
     plot_formants(plt, mp3_file2_type1_o1, 'blue', 'v', "អ")
     plot_formants(plt, mp3_file2_type2_o1, 'blue', 'v', "អ")
     plot_formants(plt, mp3_file2_type1_o2, 'red',  'v', "អ៊")
@@ -54,7 +77,7 @@ def main():
     plt.clf()
 
     # men video3
-    plot_init()
+    plot_init(vowels)
     plot_formants(plt, mp3_file3_type1_o1, 'blue', 's', "អ")
     plot_formants(plt, mp3_file3_type2_o1, 'blue', 's', "អ")
     #plot_formants(plt, mp3_file3_type1_o2, 'red',  's', "អ៊") not good
@@ -62,7 +85,19 @@ def main():
     plt.savefig(f"{os.getcwd()}/fig/video3_men.png", dpi=300, bbox_inches='tight')
     plt.clf()
 
-def plot_init():
+    # men video1
+    vowels.update(vowels_jp)
+    plot_init(vowels)
+    plot_formants(plt, mp3_file1_type1_o1, 'blue', '^', "អ")
+    plot_formants(plt, mp3_file1_type2_o1, 'blue', '^', "អ")
+    plot_formants(plt, mp3_file1_type3_o1, 'blue', '^', "អ")
+    plot_formants(plt, mp3_file1_type1_o2, 'red',  '^', "អ៊")
+    plot_formants(plt, mp3_file1_type2_o2, 'red',  '^', "អ៊")
+    plot_formants(plt, mp3_file1_type3_o2, 'red',  '^', "អ៊")
+    plt.savefig(f"{os.getcwd()}/fig/video1_men_japanese.png", dpi=300, bbox_inches='tight')
+    plt.clf()
+
+def plot_init(vowels):
 
     plt.figure(figsize=(12, 6))
     plt.ylabel('F1')
@@ -73,33 +108,12 @@ def plot_init():
     plt.ylim(100, 1100)
     plt.gca().invert_xaxis()
     plt.gca().invert_yaxis()
-    plot_ipa_vowels(plt)
+    plot_ipa_vowels(plt, vowels)
 
-def plot_ipa_vowels(plt):
+def plot_ipa_vowels(plt, vowels):
 
-    # Sample data of IPA vowels with their corresponding F1 and F2 values, including potential error margins.
-    vowels = {
-        'i': (250, 2350),
-        'ɪ': (350, 2050),
-        'e': (450, 1950),
-        'ɛ': (550, 1750),
-        'æ': (650, 1550),
-        'ɑ': (750, 1150),
-        'ɔ': (550, 950),
-        'o': (450, 850),
-        'ʊ': (350, 1050),
-        'u': (250, 950),
-        'ʌ': (650, 1350),
-        'ɒ': (750, 850),
-        #'A(j)': (700, 1400),
-        #'I(j)': (250, 2200),
-        #'U(j)': (300, 1100),
-        #'E(j)': (500, 1900),
-        #'O(j)': (400, 800),
-    }
-
-    for vowel, (f1, f2) in vowels.items():
-        ellipse = patches.Ellipse(xy=(f2, f1), width=200, height=100, angle=0, edgecolor='black', facecolor='none')
+    for vowel, (f1, f2, color) in vowels.items():
+        ellipse = patches.Ellipse(xy=(f2, f1), width=200, height=100, angle=0, edgecolor='black', facecolor=color)
         plt.gca().add_patch(ellipse)
         plt.text(f2, f1, vowel, fontsize=12, ha='center', va='center')
 
